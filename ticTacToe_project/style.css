@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #89d0d8;
+}
+
+
+#container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Flex container setup */
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    background: #62d3df;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Button styles */
+.btn {
+    height: 18vmin;
+    width: 18vmin;
+    padding: 20px;
+    background-color: #00203FFF;
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #00203FFF;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: rgb(11, 44, 77);
+    transform: translateY(0);
+}
+
+#resetBtn{
+    margin: auto;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}
+.msg{
+    text-align: center;
+    font-size: 2em;
+    display: none;
+}
+.newgame{
+    margin: auto;
+    font-size: 1.5em;
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
